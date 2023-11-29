@@ -17,6 +17,279 @@
   </head>
   <body class="d-flex flex-column h-100">
     <h1>comments</h1>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand mb-0 h1"> 
+          <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top">Тема сайту
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active"> 
+              <a href="#" class="nav-link active"> Головна</a>
+            </li>
+            <li class="nav-item active dropdown"> 
+              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" 
+              role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                Статті
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li> <a href="#" class="dropdown-item">Якась довга стаття</a> </li>
+                <li> <a href="#" class="dropdown-item">Теж стаття</a> </li>
+                <li> <a href="#" class="dropdown-item">стаття</a> </li>
+                
+              </ul>
+            </li>
+            <li class="nav-item active"> 
+              <a href="#" class="nav-link"> Коментарі</a>
+            </li>
+            <li class="nav-item active"> 
+              <a href="#" class="nav-link"> Про мене</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+          <input type="text" class="form-contol me-2">
+          <button type="submit" class="btn btn-outline-success">Пошук</button>
+        </form>
+      </div>
+    </nav>
+    <main>
+        <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Михалевич Олег</h2>
+                <p class="hero_desc">Веб-дизайнер і автор цього сайту </p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Про мене</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Мене звуть Олег, мені 17 років. Я навчаюсь у Кортеліському ліцеї імені Василя Корнелюка та захоплююсь веб-дизайном. Мені подобається створювати сайти. У вільний час полюбляю грати в шахи та комп'ютерні ігри, а також дивитись кіно і читати книги.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>ПІБ: Михалевич Олег Миколайович</li>
+                                <li>Вік: 17</li>
+                                <li>Хоббі: Веб-дизайн</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Номер телефону: +380 098 344 74 44</li>
+                                <li>Emai: roamroam201@gmail.com</li>
+                                <li>Telegram: @dissidens1</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Навчаюсь у Кортеліському ліцеї імені Василя Корнелюка.
+Володію англійською на рівні B1-B2.
+Можу підготовувати та писати новини для сайту чи соцмереж.
+Маю досвід роботи з HTML5, CSS, JS, Photoshop.
+Я вмію працювати в команді, об'єктивно оцінювати свої можливості для вирішення поставлених завдань.
+Маю постійне бажання освоювати нові технології та інструменти.
+Здатен дотримуватись дедлайнів.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Навички</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Розробка веб-сайтів</h4>
+                            <p class="card-text mt-3">Мені подобається займатись розробкою веб-сайтів, я практикуюсь та постійно намагаюсь розвиватись у цьому напрямку й вивчати нові технології, володію HTML 5, CSS 3 і базовими знаннями мови JavaScript.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Робота в команді</h4>
+                            <p class="card-text mt-3">Я вмію працювати в команді, об'єктивно оцінювати свої можливості для вирішення поставлених завдань і здатен дотримуватись дедлайнів.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Англійська мова</h4>
+                            <p class="card-text mt-3">Володію англійською на рівні B1-B2. Здатен розуміти тексти, розмовну мову носіїв і говорити у переважній більшості випадків.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Photoshop</h4>
+                            <p class="card-text mt-3">Вивчаю Adobe Photoshop і вмію працювати з альтернативими програмами (GIMP, PixelLab і т.д.)
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Копірайтинг</h4>
+                            <p class="card-text mt-3"> Я вважаю себе творчою людиною, яка здатна складати якісні оригінальні тексти і твори різного стилю та змісту. Орієнтуюся в галузі авторських прав.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Бажання вивчати нове</h4>
+                            <p class="card-text mt-3">Я завжди відкритий до нового, прагну розширити свій запас знань і підвищити рівень вже набутих навичок. Незалежно від справи, завжди намагаюсь викладатись на максимум.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+  <script src="index.js"></script>
+    <footer
+        class="text-center text-lg-start text-dark mt-auto"
+        style="background-color: #ECEFF1"
+      >
+        <section
+           class="d-flex justify-content-between p-4 text-white"
+           style="background-color: #21D192"
+           >
+          <div class="me-5">
+            <span>Соціальні мережі:</span>
+          </div>
+          <div>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="text-white me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Михалевич Олег</h6>
+                <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #26ffc0; height: 2px"
+                />
+                <p> Сайт створено для участі в 2 етапі конкурсу юних інформатиків в номінації Веб-дизайн</p>
+              </div>
+        
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Сторінки</h6>
+                <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #26ffc0; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-dark">Головна</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Статті</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Коментарі</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Про мене</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Джерела інформації</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #26ffc0; height: 2px"
+            />
+            <p>
+              <a href="#!" class="text-dark">Wikipedia</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Якийсь сайт 1</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Якийсь сайт 2</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">І ще якийсь</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Зв'язок</h6>
+            <hr
+            class="mb-4 mt-0 d-inline-block mx-auto"
+            style="width: 60px; background-color: #26ffc0; height: 2px"
+            />
+            <p><i class="fas fa-home mr-3"></i> Кортеліси, вул.Перемоги 1</p>
+            <p><i class="fas fa-envelope mr-3"></i> roamroam201.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 38 098 334 4474</p>
+            <p><i class="fa fa-telegram mr-3"></i> TG: @dissidens1</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+    class="text-center p-3"
+    style="background-color: rgba(0, 0, 0, 0.2)"
+    >
+    © 2023 Copyright:
+      <div class="text-dark">Михалевич Олег</div>
+    </div>
+    </footer>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
